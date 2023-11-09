@@ -1,0 +1,77 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+form, input, button, .success_message, .error_message {
+    display: block;
+    width: 200px;
+    padding: 10px;
+}
+
+h2 {
+    padding: 7px;
+    color:black;
+    font-family: cambria, Arial;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+    
+}
+
+input {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(216, 216, 9);
+    height: 30px;
+} 
+
+button {
+    margin-top: 5px;
+    cursor:pointer;
+    box-sizing: content-box;
+    border-radius: 10px;
+    border:none;
+    background-color:rgb(240, 240, 23);
+    color: white;
+    font-size: 20px;
+    
+}
+
+.success_message {
+    background-color:rgb(240, 240, 23);
+    padding: 8px;
+    color: black;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: none;
+    box-sizing: content-box;
+    
+}
+
+.error_message {
+    background-color: rgba(255, 0, 0, 0.685);
+    color: white;
+    padding: 5px;
+    box-sizing: content-box;
+    width: 212px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    display: none;
+}
+
+input.error {
+    color: red;
+    border-color: red;
+    outline-color: red;
+
+}
+
