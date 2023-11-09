@@ -25,4 +25,3 @@ form.addEventListener('submit', function(e) { //Toda vez que clicado em submit, 
         document.getElementById("num2").classList.remove('error');
     }
 })
-
